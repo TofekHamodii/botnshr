@@ -1,0 +1,21 @@
+﻿const Discord = require("discord.js");
+const client = new Discord.Client();
+client.on('ready', () => {
+console.log("Discord Bot By So.?");
+  console.log('BySo.?')
+  console.log('BySo.?')
+  console.log('BySo.?')
+  console.log('BySo.?')
+  console.log('BySo.?')
+
+
+});
+
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (author) {
+  return author.send(' ** حرام واحد جميل مثلك م يكون عندنا .. تنورنا  https://youtu.be/5N9ihv2c-5M ** ')
+
+}).catch(console.error)
+})
+
+client.login("NDk5NjAxODEzMzc3Mzg0NDYx.DssxuA.VITTygo9fFM08TaGBczaelddriI");
